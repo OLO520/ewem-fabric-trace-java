@@ -1,13 +1,35 @@
-## 平台介绍 <a align = "center" href='https://gitee.com/qrcode_project/ewem/stargazers'><img src='https://gitee.com/qrcode_project/ewem/badge/star.svg?theme=dark' alt='star'></img></a>
+## 平台介绍
 ##### 基于开源一物一码源防伪系统[ewem](https://gitee.com/qrcode_project/ewem)二次开发，加入Hyperledger Fabric区块链溯源功能，用户可在溯源码申请中自主选择普通溯源/区块链溯源
 ##### 基于区块链Hyperledger Fabric V2.4的农产品溯源/商品/通用万能溯源应用模板，可以快速使用本系统搭建自己的溯源系统，帮助想法快速落地，欢迎各位 Star
 
 #### 麻烦大家Star支持一下，这对我们很重要！！！
 
 #### 系统演示
-* 后端演示地址：
-* 后端账号密码：
-* B站演示视频：【基于fabric2.4一物一码万能区块链溯源系统】 https://www.bilibili.com/video/BV1b3o4YzEer/?share_source=copy_web&vd_source=edf8ba322b151e142516c4e413371b5f
+* 后端演示地址：http://47.120.79.226
+* 后端账号密码：  
+
+        种植商：zzs1   密码：123456  
+        生产商：scs1   密码：123456  
+        物流商：wls1   密码：123456  
+        销售商：xss1   密码：123456    
+
+    管理员：账号暂不开放
+#### 开源&付费版区别
+| 开源 | 付费版 | 
+|--|--|
+| 码生成 |码生成(自定义规则) |
+| 防伪码 | 防伪码(自定义规则) |
+|×|溯源角色权限隔离|
+|溯源|溯源|
+|防伪|防伪|
+|环节模板|环节模板|
+|环节录入|环节录入|
+|批次管理|批次管理|
+|分类管理|分类管理|
+|产品管理|产品管理|
+|×|精美H5溯源页|
+|×|数据报表|
+|×|更多功能...|
 
 ### 项目地址：
 * gitee：https://gitee.com/taowanwan/ewem-fabric-trace-java
@@ -21,13 +43,17 @@
 
 ![image-20250325110947669](/img/image-20250325110947669.png)
 
-![image-20250325111017830](/img/image-20250325111017830.png)
+![image-20250325111017830](/img/微信截图_20250425095526.png)
 
 ![image-20250325111134529](/img/image-20250325111134529.png)
 
 ![image-20250325111314571](/img/image-20250325111314571.png)
 
 ![image-20250325111331568](/img/image-20250325111331568.png)
+
+![防伪验证](img/trace_code.jpg)
+
+![H5溯源](img/trace.jpg)
 
 ## 技术选型
 * 前端采用Vue、Element UI。
